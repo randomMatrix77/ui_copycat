@@ -178,8 +178,8 @@ for iteration in range(MAX_ITERATIONS):
 
 ## Hover State Comparison
 
-Screenshots for reference
+Videos for reference
 
-| Original Hover State | Generated Hover State |
+| Original Hover Transition | Generated Hover Transition |
 | --- | --- |
-| ![Original Hover State](stripe_assets/hover/hover.png) | ![Generated Hover State](eval_assets/hover/hover.png) |
+| <video src="stripe_assets/hover_change.mp4" controls muted loop playsinline width="100%"></video> | <video src="generated_app-hover.mp4" controls muted loop playsinline width="100%"></video> |
