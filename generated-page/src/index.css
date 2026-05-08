@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #f6f9fc;
+  color: #061b31;
+}
+
+@layer utilities {
+  .animate-in {
+    animation-duration: 300ms;
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .fade-in {
+    animation-name: copycat-fade-in;
+  }
+
+  .slide-in-from-top-2 {
+    --copycat-slide-y: -0.5rem;
+    animation-name: copycat-slide-fade-in;
+  }
+}
+
+@keyframes copycat-fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes copycat-slide-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(var(--copycat-slide-y, -0.5rem));
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
