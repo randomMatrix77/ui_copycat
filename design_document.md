@@ -118,7 +118,7 @@ Agents should be bounded workers operating on a strict budget.
 
 ### Stopping Criterion
 
-The loop terminates when the Root Evaluator detects zero deterministic DOM errors and the Vision LLM returns `"status": "PASS"` across all interaction states.
+The loop terminates when all required structural invariants pass and the Vision Judge returns PASS across the captured interaction states.
 
 ### Budget Strategy
 
@@ -158,6 +158,22 @@ GeneratedMegaMenu.jsx
            -> No:
               -> Generate specific feedback_loop.txt
               -> Trigger next iteration
+```
+
+```
+for iteration in range(MAX_ITERATIONS):
+    if iteration == 0:
+        generate_from_assets()
+    else:
+        revise_from_feedback()
+
+    render_generated_component()
+    report = evaluate_against_original_baseline()
+
+    if report["status"] == "PASS":
+        break
+
+    write_feedback_loop(report)
 ```
 
 ## Hover State Comparison
