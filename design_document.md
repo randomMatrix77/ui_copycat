@@ -5,20 +5,20 @@ To validate the theoretical architecture outlined in this document, I developed 
 
 Specifically, this PoC isolates and replicates the Stripe "Products" mega-menu dropdown.
 
-Given the constraints of the assignment, the current codebase serves as an architectural validation rather than a fully converged, production-ready system. The implementation successfully proves that the core mechanics—the sandboxed REPL extraction, the generation pipeline, and the test symmetry evaluation—fundamentally work.
+Given the constraints of the assignment, the current codebase serves as an architectural validation rather than a fully converged, production-ready system. The implementation tries to prove that the core mechanics, sandboxed REPL extraction, generation pipeline, and the test symmetry evaluation—fundamentally can work.
 
-However, the loop is not currently run to absolute, pixel-perfect convergence. It is a functional blueprint demonstrating how the problem is solved, but it will require further engineering polish, robust edge-case handling, and extended iteration budgets to reach a final, commercial state.
+However, the loop is not currently run to absolute, pixel-perfect convergence. It is a functional blueprint demonstrating how the problem is solved, but it will require further engineering polish, robust edge-case handling, and extended iteration budgets to reach a final state.
 
 
 ## Abstract
 
 This document outlines the architecture for an autonomous agent capable of observing a live web UI and replicating its visual styling, layout, and interaction mechanics.
 
-To prevent the hallucination spirals common in generative UI tasks, this system discards the traditional "dump the DOM into the prompt" approach. Instead, it utilizes a strictly bounded 3-Phase Actor-Critic Pipeline (`Observe`, `Generate`, `Evaluate`). It relies on a sandboxed REPL environment for deterministic data extraction and enforces Test Symmetry to mathematically and visually grade the generated React components.
+To prevent the hallucination spirals common in generative UI tasks, this system discards the traditional "dump the DOM into the prompt" approach. Instead, it utilizes a strictly bounded 3-Phase Actor-Critic Pipeline (`Observe`, `Generate`, `Evaluate`). It relies on a sandboxed REPL or BeautifulSoup environment for deterministic data extraction and enforces Test Symmetry to mathematically and visually grade the generated React components.
 
 ## 1. Tool Design
 
-My design philosophy relies on a strictly minimal, purpose-built toolset. The Generate Agent is intentionally denied access to a raw headless browser or unrestricted terminal.
+My design relies on a strictly minimal, purpose-built toolset. The Generate Agent is intentionally denied access to a raw headless browser or unrestricted terminal.
 
 ### The Sandboxed Context REPL (PythonREPLTool)
 
@@ -36,7 +36,7 @@ My design philosophy relies on a strictly minimal, purpose-built toolset. The Ge
 
 ### The Multimodal Vision Judge (Native VLM API)
 
-- Function: Takes three pairs of image states, original vs generated for `Pre`, `Hover`, and `Post`, alongside the output of the Diff Engine. It returns a coerced JSON payload:
+- Function: Takes sets of image states, original vs generated for example `Pre`, `Hover`, and `Post`, alongside the output of the Diff Engine. It returns a coerced JSON payload:
 
 ```json
 {"status": "PASS" | "FAIL", "refinement_pointers": [...]}
@@ -85,11 +85,11 @@ V2 Roadmap (Semantic Investigation): Currently, the agent relies strictly on fla
 
 ### Iterative Memory (Refine Mode)
 
-If a QA feedback payload (`feedback_loop.txt`) exists from a previous iteration, the agent shifts from "Creator" to a "Senior Developer addressing a PR." It retains REPL access, allowing it to autonomously debug why it failed by re-querying the original assets before rewriting the code.
+If a QA feedback payload (`feedback_loop.txt`) exists from a previous iteration, the agent shifts from "Creator" to a "developer addressing a PR." It retains REPL access, allowing it to autonomously debug why it failed by re-querying the original assets before rewriting the code.
 
 ## 4. Evaluation Mechanism
 
-Without a rigorous critique, generation loops spiral. This system enforces an Actor-Critic Pipeline built on Test Symmetry, meaning the evaluation strictly mirrors the state machine observed during extraction.
+This system enforces an Actor-Critic Pipeline built on Test Symmetry, meaning the evaluation strictly mirrors the state machine observed during extraction.
 
 ### What Is Measured
 
@@ -114,7 +114,7 @@ The agent never compares Iteration 2 against Iteration 1. Every evaluation force
 
 ## 5. Convergence and Failure Handling
 
-Agents are not magic; they are bounded workers operating on a strict budget.
+Agents should be bounded workers operating on a strict budget.
 
 ### Stopping Criterion
 
@@ -122,7 +122,7 @@ The loop terminates when the Root Evaluator detects zero deterministic DOM error
 
 ### Budget Strategy
 
-Fast, deterministic failure is prioritized over expensive hallucination. The loop is strictly capped at `MAX_ITERATIONS = 3`.
+Fast, deterministic failure is prioritized over expensive hallucination. The loop should be strictly capped, e.g., `MAX_ITERATIONS = 3`.
 
 ### V2 Roadmap: Degradation, Recovery, and Shared Memory
 
