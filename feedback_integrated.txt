@@ -1,0 +1,7 @@
+The 'Products' dropdown menu is significantly under-implemented; it must be a full-width mega menu spanning the container width, not a narrow popover.
+Missing the 'More' column in the mega menu, which includes a featured card with an image ('Building the economic infrastructure for AI').
+Navigation items in the dropdown are missing their descriptive sub-text and specific color-coded icons (e.g., 'Payments' should have 'Online payments' sub-text).
+The navigation bar background is missing the glassmorphism effect; apply 'backdrop-blur-md' and a semi-transparent white background.
+The 'Sign in' button should be styled as a ghost button with a subtle border, rather than a plain text link.
+The 'Contact sales' button needs the correct brand purple background and a chevron-right icon suffix.
+The DOM hierarchy for the dropdown is incorrect; it should likely use a portal or a container that allows it to span the full width of the navigation area regardless of the trigger's position.
