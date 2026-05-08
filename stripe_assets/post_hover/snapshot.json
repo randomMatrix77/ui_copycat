@@ -1,0 +1,509 @@
+{
+  "capturedAtIso": "2026-05-07T19:07:49.675Z",
+  "location": {
+    "href": "https://stripe.com/en-de",
+    "origin": "https://stripe.com",
+    "pathname": "/en-de"
+  },
+  "document": {
+    "title": "Stripe | Financial Infrastructure to Grow Your Revenue",
+    "lang": "en-DE",
+    "dir": "",
+    "readyState": "complete",
+    "visibilityState": "visible"
+  },
+  "viewport": {
+    "innerWidth": 1440,
+    "innerHeight": 900,
+    "outerWidth": 1442,
+    "outerHeight": 862,
+    "devicePixelRatio": 1
+  },
+  "scroll": {
+    "x": 0,
+    "y": 0
+  },
+  "body": {
+    "className": "",
+    "childElementCount": 7
+  },
+  "activeElement": {
+    "tagName": "BODY",
+    "id": "",
+    "className": "",
+    "ariaLabel": null,
+    "text": "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebSite\",\"url\":\"https://stripe.com/\",\"name\":\"Stripe\"},{\"@type\":\"Organization\",\"@id\":\"https://stripe.com/#organization\",\"url\":\"https://stripe.com/\","
+  },
+  "counts": {
+    "links": 176,
+    "buttons": 32,
+    "images": 40,
+    "forms": 0,
+    "iframes": 2,
+    "dialogs": 0,
+    "styleSheets": 7
+  },
+  "targets": {
+    "header": {
+      "selector": "header",
+      "tagName": "HEADER",
+      "id": "",
+      "className": "hds-color-mode navigation section section--white hds-mode--light",
+      "text": "ProductsSolutionsDevelopersResourcesPricingSign inStart nowContact salesBackSign inSign inContact sales",
+      "attributes": {
+        "class": "hds-color-mode navigation section section--white hds-mode--light"
+      },
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 76,
+        "top": 0,
+        "right": 1440,
+        "bottom": 76,
+        "left": 0
+      },
+      "styles": {
+        "display": "block",
+        "position": "relative",
+        "top": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "left": "0px",
+        "zIndex": "2",
+        "width": "1440px",
+        "height": "76px",
+        "margin": "0px",
+        "padding": "0px",
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "visibility": "visible",
+        "pointerEvents": "auto",
+        "transform": "none",
+        "transition": "all",
+        "boxShadow": "none",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "font": "",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal"
+      },
+      "childElementCount": 1,
+      "outerHTMLSnippet": "<header class=\"hds-color-mode navigation section section--white hds-mode--light\"><div class=\"section-container navigation__layout\"><nav class=\"hds-navigation-menu navigation-menu\" id=\"navigation-menu\"><a class=\"hds-link navigation-menu-home-link\" href=\"/\" data-analytics-label=\"Stripe Logo\" aria-label=\"Stripe homepage\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"60\" height=\"25\" fill=\"#031323\" viewBox=\"0 0 60 25\" aria-label=\"Stripe logo\"><path fill=\"var(--hds-color-text-solid)\" fill-rule=\"evenodd\" d=\"M59.6444 14.2813h-8.062c.1843 1.9296 1.5983 2.5476 3.2032 2.5476 1.6352 0 2.9534-.3656 4.0453-.9506v3.3179c-1.1186.7115-2.5964 1.1068-4.5645 1.1068-4.011 0-6.8218-2.5122-6.8218-7.4783 0-4.19441 2.3837-7.52509 6.3017-7.52509 3.912 0 5.9537 3.28038 5.9537 7.49819 0 .3982-.0372 1.261-.0556 1.4835Zm-5.9241-5.62407c-1.0294 0-2.1739.72812-2.1739 2.58387h4.2573c0-1.85362-1.0721-2.58387-2.0834-2.58387ZM40.9547 20.303c-1.4411 0-2.322-.6087-2.9133-1.0417l-.0088 4.6271-4.1181.8755-.0014-19.19053h3.7"
+    },
+    "nav": {
+      "selector": "header nav#navigation-menu",
+      "tagName": "NAV",
+      "id": "navigation-menu",
+      "className": "hds-navigation-menu navigation-menu",
+      "text": "ProductsSolutionsDevelopersResourcesPricingSign inStart nowContact salesBackSign inSign inContact sales",
+      "attributes": {
+        "class": "hds-navigation-menu navigation-menu",
+        "id": "navigation-menu"
+      },
+      "rect": {
+        "x": 89,
+        "y": 6,
+        "width": 1262,
+        "height": 64,
+        "top": 6,
+        "right": 1351,
+        "bottom": 70,
+        "left": 89
+      },
+      "styles": {
+        "display": "flex",
+        "position": "relative",
+        "top": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "left": "0px",
+        "zIndex": "auto",
+        "width": "1262px",
+        "height": "64px",
+        "margin": "0px",
+        "padding": "10px 16px",
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "visibility": "visible",
+        "pointerEvents": "auto",
+        "transform": "none",
+        "transition": "all",
+        "boxShadow": "none",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "6px",
+        "font": "",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal"
+      },
+      "childElementCount": 5,
+      "outerHTMLSnippet": "<nav class=\"hds-navigation-menu navigation-menu\" id=\"navigation-menu\"><a class=\"hds-link navigation-menu-home-link\" href=\"/\" data-analytics-label=\"Stripe Logo\" aria-label=\"Stripe homepage\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"60\" height=\"25\" fill=\"#031323\" viewBox=\"0 0 60 25\" aria-label=\"Stripe logo\"><path fill=\"var(--hds-color-text-solid)\" fill-rule=\"evenodd\" d=\"M59.6444 14.2813h-8.062c.1843 1.9296 1.5983 2.5476 3.2032 2.5476 1.6352 0 2.9534-.3656 4.0453-.9506v3.3179c-1.1186.7115-2.5964 1.1068-4.5645 1.1068-4.011 0-6.8218-2.5122-6.8218-7.4783 0-4.19441 2.3837-7.52509 6.3017-7.52509 3.912 0 5.9537 3.28038 5.9537 7.49819 0 .3982-.0372 1.261-.0556 1.4835Zm-5.9241-5.62407c-1.0294 0-2.1739.72812-2.1739 2.58387h4.2573c0-1.85362-1.0721-2.58387-2.0834-2.58387ZM40.9547 20.303c-1.4411 0-2.322-.6087-2.9133-1.0417l-.0088 4.6271-4.1181.8755-.0014-19.19053h3.7543l.0864 1.01784c.6035-.52914 1.6114-1.29157 3.2256-1.29162 2.8925 0 5.6162 2.6052 5.6162 7.39971 0 5.2327-2.6948 7.6037-5.6409 7."
+    },
+    "productsTrigger": {
+      "selector": "[data-testid='header-products-nav-item'] > button",
+      "tagName": "BUTTON",
+      "id": "",
+      "className": "hds-button hds-navigation-menu__trigger hds-button--transparent",
+      "text": "Products",
+      "attributes": {
+        "type": "button",
+        "class": "hds-button hds-navigation-menu__trigger hds-button--transparent",
+        "aria-expanded": "false",
+        "tabindex": "0",
+        "data-active": ""
+      },
+      "rect": {
+        "x": 193,
+        "y": 18,
+        "width": 76.66,
+        "height": 40,
+        "top": 18,
+        "right": 269.66,
+        "bottom": 58,
+        "left": 193
+      },
+      "styles": {
+        "display": "flex",
+        "position": "relative",
+        "top": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "left": "0px",
+        "zIndex": "auto",
+        "width": "76.6641px",
+        "height": "40px",
+        "margin": "0px",
+        "padding": "12px 0px",
+        "color": "rgb(6, 27, 49)",
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "visibility": "visible",
+        "pointerEvents": "auto",
+        "transform": "none",
+        "transition": "color 0.24s cubic-bezier(0.45, 0.05, 0.55, 0.95), background-color 0.24s cubic-bezier(0.45, 0.05, 0.55, 0.95), border-color 0.24s cubic-bezier(0.45, 0.05, 0.55, 0.95)",
+        "boxShadow": "none",
+        "border": "0px none rgb(6, 27, 49)",
+        "borderRadius": "4px",
+        "font": "",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "14px"
+      },
+      "childElementCount": 1,
+      "outerHTMLSnippet": "<button type=\"button\" class=\"hds-button hds-navigation-menu__trigger hds-button--transparent\" aria-expanded=\"false\" tabindex=\"0\" data-active=\"\">Products<svg class=\"hds-icon navigation__chevron-down-icon\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\"><path class=\"navigation__chevron-down-icon__left\" d=\"M4.67065 6L9.3 10.6\" stroke=\"currentColor\" stroke-width=\"1.75\"></path><path class=\"navigation__chevron-down-icon__right\" d=\"M12.6707 6L8.67065 10\" stroke=\"currentColor\" stroke-width=\"1.75\"></path></svg></button>"
+    },
+    "solutionsTrigger": {
+      "selector": "[data-testid='header-solutions-nav-item'] > button",
+      "tagName": "BUTTON",
+      "id": "",
+      "className": "hds-button hds-navigation-menu__trigger hds-button--transparent",
+      "text": "Solutions",
+      "attributes": {
+        "type": "button",
+        "class": "hds-button hds-navigation-menu__trigger hds-button--transparent",
+        "aria-expanded": "false",
+        "tabindex": "-1"
+      },
+      "rect": {
+        "x": 293.66,
+        "y": 18,
+        "width": 78.47,
+        "height": 40,
+        "top": 18,
+        "right": 372.13,
+        "bottom": 58,
+        "left": 293.66
+      },
+      "styles": {
+        "display": "flex",
+        "position": "relative",
+        "top": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "left": "0px",
+        "zIndex": "auto",
+        "width": "78.4688px",
+        "height": "40px",
+        "margin": "0px",
+        "padding": "12px 0px",
+        "color": "rgb(6, 27, 49)",
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "visibility": "visible",
+        "pointerEvents": "auto",
+        "transform": "none",
+        "transition": "color 0.24s cubic-bezier(0.45, 0.05, 0.55, 0.95), background-color 0.24s cubic-bezier(0.45, 0.05, 0.55, 0.95), border-color 0.24s cubic-bezier(0.45, 0.05, 0.55, 0.95)",
+        "boxShadow": "none",
+        "border": "0px none rgb(6, 27, 49)",
+        "borderRadius": "4px",
+        "font": "",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "14px"
+      },
+      "childElementCount": 1,
+      "outerHTMLSnippet": "<button type=\"button\" class=\"hds-button hds-navigation-menu__trigger hds-button--transparent\" aria-expanded=\"false\" tabindex=\"-1\">Solutions<svg class=\"hds-icon navigation__chevron-down-icon\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\"><path class=\"navigation__chevron-down-icon__left\" d=\"M4.67065 6L9.3 10.6\" stroke=\"currentColor\" stroke-width=\"1.75\"></path><path class=\"navigation__chevron-down-icon__right\" d=\"M12.6707 6L8.67065 10\" stroke=\"currentColor\" stroke-width=\"1.75\"></path></svg></button>"
+    },
+    "menuContent": {
+      "selector": ".navigation-menu-content",
+      "tagName": "DIV",
+      "id": "",
+      "className": "hds-navigation-menu__content navigation-menu-content",
+      "text": "ProductsSolutionsDevelopersResourcesPricingSign in",
+      "attributes": {
+        "class": "hds-navigation-menu__content navigation-menu-content",
+        "data-status": "unmounted"
+      },
+      "rect": {
+        "x": 193,
+        "y": 18,
+        "width": 472.36,
+        "height": 40,
+        "top": 18,
+        "right": 665.36,
+        "bottom": 58,
+        "left": 193
+      },
+      "styles": {
+        "display": "block",
+        "position": "static",
+        "top": "auto",
+        "right": "auto",
+        "bottom": "auto",
+        "left": "auto",
+        "zIndex": "auto",
+        "width": "472.359px",
+        "height": "40px",
+        "margin": "0px",
+        "padding": "0px",
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "visibility": "visible",
+        "pointerEvents": "auto",
+        "transform": "none",
+        "transition": "opacity cubic-bezier(0.4, 0, 0.2, 1), transform cubic-bezier(0.4, 0, 0.2, 1)",
+        "boxShadow": "none",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "font": "",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal"
+      },
+      "childElementCount": 1,
+      "outerHTMLSnippet": "<div class=\"hds-navigation-menu__content navigation-menu-content\" data-status=\"unmounted\"><ul class=\"hds-navigation-menu__list navigation-menu-list hds-navigation-menu__list--horizontal\"><li class=\"hds-navigation-menu__item navigation-item\" value=\"products\" data-testid=\"header-products-nav-item\"><button type=\"button\" class=\"hds-button hds-navigation-menu__trigger hds-button--transparent\" aria-expanded=\"false\" tabindex=\"0\" data-active=\"\">Products<svg class=\"hds-icon navigation__chevron-down-icon\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\"><path class=\"navigation__chevron-down-icon__left\" d=\"M4.67065 6L9.3 10.6\" stroke=\"currentColor\" stroke-width=\"1.75\"></path><path class=\"navigation__chevron-down-icon__right\" d=\"M12.6707 6L8.67065 10\" stroke=\"currentColor\" stroke-width=\"1.75\"></path></svg></button></li><li class=\"hds-navigation-menu__item navigation-item\" value=\"solutions\" data-testid=\"header-solutions-nav-item\"><button t"
+    },
+    "menuOverflow": {
+      "selector": ".navigation-menu-overflow",
+      "tagName": "DIV",
+      "id": "",
+      "className": "navigation-menu-overflow",
+      "text": "Start nowContact salesBack",
+      "attributes": {
+        "class": "navigation-menu-overflow",
+        "data-status": "unmounted"
+      },
+      "rect": {
+        "x": 693.36,
+        "y": 38,
+        "width": 0,
+        "height": 0,
+        "top": 38,
+        "right": 693.36,
+        "bottom": 38,
+        "left": 693.36
+      },
+      "styles": {
+        "display": "block",
+        "position": "static",
+        "top": "auto",
+        "right": "auto",
+        "bottom": "auto",
+        "left": "auto",
+        "zIndex": "auto",
+        "width": "0px",
+        "height": "0px",
+        "margin": "0px",
+        "padding": "0px",
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "visibility": "visible",
+        "pointerEvents": "auto",
+        "transform": "none",
+        "transition": "all",
+        "boxShadow": "none",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "font": "",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal"
+      },
+      "childElementCount": 2,
+      "outerHTMLSnippet": "<div class=\"navigation-menu-overflow\" data-status=\"unmounted\"><section class=\"navigation-menu-footer\"><div class=\"hds-button-group\"><a class=\"hds-button hds-button--primary\" href=\"https://dashboard.stripe.com/register\" data-analytics-label=\"global_nav__start_now\">Start now<svg class=\"hds-icon hds-icon-hover-arrow\" width=\"10\" height=\"10\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M0.5 5.5h7\"></path><path d=\"M1.5 1.5l4 4-4 4\"></path></svg></a><a class=\"hds-button hds-button--secondary-on-quiet\" href=\"/en-de/contact/sales\" data-analytics-label=\"global_nav__contact_sales\">Contact sales</a></div></section><section class=\"navigation-menu-header\"><button type=\"button\" class=\"hds-button navigation-back-button hds-button--transparent\" command=\"close\" commandfor=\"navigation-menu\"><svg class=\"navigation__chevron-left-icon\" xmlns=\"http://www.w3.org/2000/svg\" width=\"6\" height=\"10\" fill=\"none\" viewBox=\"0 0 6 10\"><path fill=\"currentColor\" d=\"M.618 5.238 0 4.62.618 4l4-4 1.238 1.238-3"
+    }
+  },
+  "navLinks": [
+    {
+      "tagName": "A",
+      "text": "",
+      "href": "/",
+      "ariaExpanded": null,
+      "ariaLabel": "Stripe homepage",
+      "className": "hds-link navigation-menu-home-link"
+    },
+    {
+      "tagName": "BUTTON",
+      "text": "Products",
+      "href": null,
+      "ariaExpanded": "false",
+      "ariaLabel": null,
+      "className": "hds-button hds-navigation-menu__trigger hds-button--transparent"
+    },
+    {
+      "tagName": "BUTTON",
+      "text": "Solutions",
+      "href": null,
+      "ariaExpanded": "false",
+      "ariaLabel": null,
+      "className": "hds-button hds-navigation-menu__trigger hds-button--transparent"
+    },
+    {
+      "tagName": "BUTTON",
+      "text": "Developers",
+      "href": null,
+      "ariaExpanded": "false",
+      "ariaLabel": null,
+      "className": "hds-button hds-navigation-menu__trigger hds-button--transparent"
+    },
+    {
+      "tagName": "BUTTON",
+      "text": "Resources",
+      "href": null,
+      "ariaExpanded": "false",
+      "ariaLabel": null,
+      "className": "hds-button hds-navigation-menu__trigger hds-button--transparent"
+    },
+    {
+      "tagName": "A",
+      "text": "Pricing",
+      "href": "/en-de/pricing",
+      "ariaExpanded": null,
+      "ariaLabel": null,
+      "className": "hds-button hds-navigation-menu__trigger hds-button--transparent"
+    },
+    {
+      "tagName": "A",
+      "text": "Sign in",
+      "href": "https://dashboard.stripe.com/login",
+      "ariaExpanded": null,
+      "ariaLabel": null,
+      "className": "hds-button hds-navigation-menu__trigger hds-button--transparent"
+    },
+    {
+      "tagName": "A",
+      "text": "Start now",
+      "href": "https://dashboard.stripe.com/register",
+      "ariaExpanded": null,
+      "ariaLabel": null,
+      "className": "hds-button hds-button--primary"
+    },
+    {
+      "tagName": "A",
+      "text": "Contact sales",
+      "href": "/en-de/contact/sales",
+      "ariaExpanded": null,
+      "ariaLabel": null,
+      "className": "hds-button hds-button--secondary-on-quiet"
+    },
+    {
+      "tagName": "BUTTON",
+      "text": "Back",
+      "href": null,
+      "ariaExpanded": null,
+      "ariaLabel": null,
+      "className": "hds-button navigation-back-button hds-button--transparent"
+    },
+    {
+      "tagName": "BUTTON",
+      "text": "",
+      "href": null,
+      "ariaExpanded": "false",
+      "ariaLabel": "Toggle navigation menu",
+      "className": "hds-ui-button hds-navigation-menu__trigger navigation-hamburger-button hds-ui-button--quiet"
+    },
+    {
+      "tagName": "A",
+      "text": "Sign inSign in",
+      "href": "https://dashboard.stripe.com/login",
+      "ariaExpanded": null,
+      "ariaLabel": "Sign in",
+      "className": "hds-button navigation-cta-button navigation-item__sign-in hds-button--secondary-on-quiet"
+    },
+    {
+      "tagName": "A",
+      "text": "Contact sales",
+      "href": "/en-de/contact/sales",
+      "ariaExpanded": null,
+      "ariaLabel": null,
+      "className": "hds-button navigation-cta-button navigation-item__contact-sales hds-button--primary"
+    }
+  ],
+  "dialogs": [],
+  "stylesheetRefs": [
+    {
+      "tagName": "LINK",
+      "href": "https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/f4882a34561e5dbb.css",
+      "media": null,
+      "textLength": null
+    },
+    {
+      "tagName": "LINK",
+      "href": "https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/9783a0f920ab0abb.css",
+      "media": null,
+      "textLength": null
+    },
+    {
+      "tagName": "LINK",
+      "href": "https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/57f8c646aef0b9c7.css",
+      "media": null,
+      "textLength": null
+    },
+    {
+      "tagName": "LINK",
+      "href": "https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/a11fd5697c32b98a.css",
+      "media": null,
+      "textLength": null
+    },
+    {
+      "tagName": "LINK",
+      "href": "https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/45ea3c6577ef6a50.css",
+      "media": null,
+      "textLength": null
+    },
+    {
+      "tagName": "LINK",
+      "href": "https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/5ac76ef56c21b7fe.css",
+      "media": null,
+      "textLength": null
+    },
+    {
+      "tagName": "LINK",
+      "href": "https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/f73a927287a9f564.css",
+      "media": null,
+      "textLength": null
+    }
+  ]
+}
